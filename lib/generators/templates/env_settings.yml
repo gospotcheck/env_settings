@@ -1,0 +1,44 @@
+# EnvSettings
+#
+# Use this file to create a list of required environment variables and set default values for optional variables.
+
+
+# Options
+
+# Enables or disables the summary page on app load
+
+enabled: true
+
+
+# Shows summary page (even if all variables are set)
+
+always: false
+
+
+# Logs summary of required variables in the console
+
+log: true
+
+
+# Required Variables (with descriptions):
+# 
+# Note: There are no defaults for required variables.
+# Each required variable is given a description which can be used for debugging.
+#
+# ie.
+# OAUTH_BASE_URL: "The base URL used to authenticate, usually https://oauthserver.com"
+#
+
+required:
+  VARIABLE: "description"
+  VARIABLE_NEXT: "something else" 
+
+
+# Optional Variables (with default values):
+#
+# Set optional variables with default values.
+# Note: Variables set in the Rails environment will overwrite these defaults.
+
+optional:
+  OPTIONAL_VAR: "default value"
+  OPTIONAL_VAR_TWO: "default value"
