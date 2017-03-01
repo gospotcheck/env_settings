@@ -1,0 +1,21 @@
+# EnvSettings
+#
+#
+
+
+# reverse defaults to test #load_config
+
+enabled: false
+always: false
+log: true
+
+
+# required
+
+required:
+
+
+
+# optional
+
+optional:

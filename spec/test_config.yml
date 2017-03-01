@@ -1,0 +1,24 @@
+# EnvSettings
+#
+#
+
+
+# reverse defaults to test #load_config
+
+enabled: true
+always: true
+log: false
+
+
+# required
+
+required:
+  SPEC_API_TOKEN: "api token"
+  SPEC_PORTFOLIO_VALUE: "value"
+
+
+# optional
+
+optional:
+  SUPPORT_EMAIL: "support@weather.com"
+  WINNING_LOTTO_NUMBERS: [42,1,2,3,4]
